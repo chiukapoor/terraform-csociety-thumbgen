@@ -1,5 +1,10 @@
 # Terraform Custom Module: S3 Thumbnail Creation
 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 This Terraform custom module helps you create an AWS Lambda function to generate thumbnails for images stored in an S3 bucket. The module consists of several sub-modules for creating the S3 bucket, IAM policy and role, and Lambda function, enabling you to easily deploy the thumbnail generation workflow in your AWS environment.
 
 ## Prerequisites

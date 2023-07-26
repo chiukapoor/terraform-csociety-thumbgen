@@ -6,7 +6,7 @@ resource "aws_lambda_function" "thumbnail_lambda_function" {
   timeout = 10
   memory_size = 1024
   role = "${var.aws_iam_role_arn}"
-  filename = "modules/lambda-function/code/lambda_function.zip"
+  filename = ".terraform/modules/thumbgen/modules/lambda-function/code/lambda_function.zip"
 }
 
 resource "aws_lambda_permission" "s3_trigger_permission" {

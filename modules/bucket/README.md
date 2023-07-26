@@ -44,7 +44,7 @@ module "s3_buckets" {
 
 ## License
 
-This Terraform custom module is licensed under the Apache License. See the [LICENSE](LICENSE) file for more details.
+This Terraform custom module is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for more details.
 
 ## Note
 
@@ -52,4 +52,4 @@ Before applying the Terraform configuration, ensure that you have the appropriat
 
 ## Authors
 
-- dev.csociety@gmail.com
+[Chirayu Kapoor](https://github.com/chiukapoor/)

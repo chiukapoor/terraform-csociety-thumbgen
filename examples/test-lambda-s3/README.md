@@ -87,10 +87,14 @@ terraform apply
 
 Terraform will use the `aws_s3_object` module to upload the "test.png" file to the specified S3 bucket.
 
+## License
+
+This Terraform custom module is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for more details.
+
 ## Note
 
 Before applying the Terraform configuration, ensure that you have the appropriate permissions and privileges to create IAM policies and roles in your AWS account. Also, make sure to review and adjust the policy's permissions according to your specific security requirements.
 
 ## Authors
 
-- dev.csociety@gmail.com
+[Chirayu Kapoor](https://github.com/chiukapoor/)

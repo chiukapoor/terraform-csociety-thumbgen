@@ -95,6 +95,14 @@ variable "lambda_function_name" {
 
 This Terraform custom module is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for more details.
 
+## Note
+
+Before applying the Terraform configuration, ensure that you have the appropriate permissions and privileges to create IAM policies and roles in your AWS account. Also, make sure to review and adjust the policy's permissions according to your specific security requirements.
+
+## Authors
+
+[Chirayu Kapoor](https://github.com/chiukapoor/)
+
 Feel free to modify and extend this module according to your specific needs. For any issues or contributions, please create a pull request on the repository.
 
 Happy Terraforming!
